@@ -1,0 +1,122 @@
+ $secondary-color: #125688 !default;
+ $oleo-script : 'Oleo Script';
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+body{
+	background-color: #fafafa;
+	color:#125688;
+	font-family: Monserrat;
+}
+
+.landing{
+	margin: 30px auto;
+}
+
+.iphone{
+	max-width: 100%;
+}
+
+.footer-site{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.login-box, 
+.signup-box{
+	background-color: white;
+	border:1px solid #edeeee;
+	border-radius: 3px;
+	padding: 10px 0;
+	text-align: center;
+}
+.riapgram{
+	font-family: $oleo-script;
+	font-size: 42px !important;
+	color: $secondary-color !important;
+}
+
+.icono{
+	margin-right : 5px !important;
+}
+
+.signup-form{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.signup-form h2{
+	color: #a5a7aa;
+	font-size: 1.2em;
+}
+
+.signup-form .btn.btn-fb{
+	//background-color: #4090db;
+	font-size: .8em;
+}
+
+.signup-form .btn.btn-fb:hover{
+	background-color: #2d6599;
+}
+
+.header{
+	background-color:white;
+	color:$secondary-color !important;
+	box-shadow:none;
+	border-bottom: 1px solid #edeeee;
+}
+
+.timeline{
+	padding: 30px 0;
+}
+
+$avatar-size:48px;
+
+.avatar{
+	width : $avatar-size;
+	height: $avatar-size;
+	border-radius:50%;
+	float:left;
+	margin-right:12px;
+}
+
+.card .username{
+	color :$secondary-color;
+	font-family: $oleo-script;
+}
+
+.card small.time{
+	line-height: $avatar-size;
+}
+
+.card p{
+	padding:20px 0;
+}
+
+.card .liked{
+	line-height:30px;
+	margin-left: 12px;
+}
+
+.card i{
+	font-size:30px;
+}
+
+.card .fa-heart-o{
+	color: $secondary-color !important;
+}
+
+.card .fa-heart{
+	color: #f44336;
+	display:none;
+}
+
+.card.liked{
+	.fa-heart{
+		display:block;
+	}
+	.fa-heart-o{
+		display: none;
+	}
+} 
+
